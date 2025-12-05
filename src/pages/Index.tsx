@@ -1,5 +1,4 @@
 import UpsellHero from "@/components/UpsellHero";
-import TopCTASection from "@/components/TopCTASection";
 import WhatIsSection from "@/components/WhatIsSection";
 import ForWhoSection from "@/components/ForWhoSection";
 import BenefitsSection from "@/components/BenefitsSection";
@@ -23,9 +22,6 @@ const Index = () => {
       {/* Hero Section */}
       <UpsellHero />
       
-      {/* Top CTA - New */}
-      <TopCTASection />
-      
       <div className="divider-soft" />
       
       {/* What Is Section */}
@@ -33,7 +29,7 @@ const Index = () => {
       
       <div className="divider-soft" />
       
-      {/* For Who Section */}
+      {/* For Who Section + CTA */}
       <ForWhoSection />
       
       <div className="divider-soft" />
@@ -48,7 +44,7 @@ const Index = () => {
       
       <div className="divider-soft" />
       
-      {/* CTA with Cakto */}
+      {/* CTA Section */}
       <CTASection />
       
       <div className="divider-soft" />
