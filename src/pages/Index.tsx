@@ -5,16 +5,10 @@ import BenefitsSection from "@/components/BenefitsSection";
 import OfferSection from "@/components/OfferSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import BackgroundEffects from "@/components/BackgroundEffects";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background relative">
-      {/* Animated Background Effects */}
-      <BackgroundEffects />
-      
-      {/* Content Layer */}
-      <div className="relative z-10">
+    <main className="min-h-screen bg-background">
       {/* Hero Section */}
       <UpsellHero />
       
@@ -47,7 +41,6 @@ const Index = () => {
       
       {/* Footer */}
       <Footer />
-      </div>
     </main>
   );
 };
