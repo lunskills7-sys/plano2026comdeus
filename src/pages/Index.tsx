@@ -1,13 +1,47 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import UpsellHero from "@/components/UpsellHero";
+import WhatIsSection from "@/components/WhatIsSection";
+import ForWhoSection from "@/components/ForWhoSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import OfferSection from "@/components/OfferSection";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <UpsellHero />
+      
+      <div className="divider-soft" />
+      
+      {/* What Is Section */}
+      <WhatIsSection />
+      
+      <div className="divider-soft" />
+      
+      {/* For Who Section */}
+      <ForWhoSection />
+      
+      <div className="divider-soft" />
+      
+      {/* Benefits Section */}
+      <BenefitsSection />
+      
+      <div className="divider-soft" />
+      
+      {/* Offer Section */}
+      <OfferSection />
+      
+      <div className="divider-soft" />
+      
+      {/* CTA with Cakto Placeholder */}
+      <CTASection />
+      
+      <div className="divider-soft" />
+      
+      {/* Footer */}
+      <Footer />
+    </main>
   );
 };
 
